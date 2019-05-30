@@ -1,0 +1,73 @@
+body {
+    margin: 0 auto;
+    padding: 1em;
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+#background {
+    background: rgb(113, 179, 194);
+    background-size: contain;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+
+#instructions {
+    max-width: 50%;
+    margin: 2em auto;
+    position: relative;
+}
+
+#data-for-game {
+    max-width: 50%;
+    margin: 2em auto;
+    position: relative;
+    left: 20%;
+}
+
+#crystal-container {
+    margin: 2em auto;
+    position: relative;
+    left: 23%;
+}
+
+
+
+
+#score-container {
+
+    margin: 2em auto;
+    position: relative;
+    max-width: 50%;
+    width: 200px;
+    height: 20px;
+    left: 0;
+}
+
+
+.crystal-image {
+    width: 100px;
+    height: 100px;
+}
+
+.crystals {
+    float: left;
+    margin:0 2em;
+}
+
+#total-header {
+    margin-top:2em;
+    clear: both;
+}
+
+#total-score {
+
+    clear: both;
+}
